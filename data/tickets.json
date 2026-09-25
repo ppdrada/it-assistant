@@ -1,18 +1,11 @@
-[
-  {
-    "text": "Minha VPN não conecta",
-    "category": "vpn"
-  },
-  {
-    "text": "O Cisco AnyConnect não conecta",
-    "category": "vpn"
-  },
-  {
-    "text": "Meu Outlook não abre",
-    "category": "outlook"
-  },
-  {
-    "text": "Não consigo abrir o Outlook",
-    "category": "outlook"
-  }
-]
+{
+  "tickets": [
+    {
+      "id": "ticket-001",
+      "title": "VPN não conecta",
+      "description": "Usuário não consegue conectar na VPN de casa.",
+      "category": "VPN",
+      "priority": "medium"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "id": "vpn-001",
+      "category": "VPN",
+      "title": "VPN não conecta",
+      "keywords": [
+        "vpn",
+        "não conecta",
+        "sem acesso",
+        "vpn caiu"
+      ],
+      "solution": [
+        "Verifique sua conexão com a internet.",
+        "Abra o Cisco Secure Client.",
+        "Confirme o perfil correto.",
+        "Tente conectar novamente."
+      ]
+    }
+  ]
+}
