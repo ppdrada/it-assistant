@@ -1,20 +1,91 @@
 {
   "articles": [
     {
-      "id": "vpn-001",
-      "category": "VPN",
-      "title": "VPN não conecta",
-      "keywords": [
-        "vpn",
-        "não conecta",
-        "sem acesso",
-        "vpn caiu"
-      ],
+      "id": "energia-001",
+      "category": "Energia",
+      "title": "Computador não liga",
+      "keywords": ["nao liga", "nao inicia", "nao acende", "tela preta"],
       "solution": [
-        "Verifique sua conexão com a internet.",
-        "Abra o Cisco Secure Client.",
-        "Confirme o perfil correto.",
-        "Tente conectar novamente."
+        "Confira se o cabo de energia está bem encaixado no computador e na tomada.",
+        "Teste a tomada com outro aparelho.",
+        "Se for notebook, deixe carregando por 15 minutos e tente de novo.",
+        "Segure o botão de ligar por 15 segundos, solte e ligue novamente.",
+        "Se as luzes acendem mas a tela fica preta, aperte Win + Ctrl + Shift + B para reiniciar o driver de vídeo."
+      ]
+    },
+    {
+      "id": "rede-001",
+      "category": "Rede",
+      "title": "Sem internet ou Wi-Fi caindo",
+      "keywords": ["wifi", "internet", "sem rede", "rede caiu", "sem conexao"],
+      "solution": [
+        "Veja se outros aparelhos na mesma rede têm internet.",
+        "Clique no ícone de rede na barra de tarefas, desligue e ligue o Wi-Fi.",
+        "Reinicie o roteador: desligue da tomada, espere 30 segundos e ligue de novo.",
+        "Em Configurações > Rede e Internet > Wi-Fi > Gerenciar redes conhecidas, esqueça a rede e conecte de novo.",
+        "Rode Configurações > Sistema > Solução de problemas > Outros solucionadores > Rede e Internet."
+      ]
+    },
+    {
+      "id": "senha-001",
+      "category": "Acesso",
+      "title": "Esqueci a senha ou conta bloqueada",
+      "keywords": ["senha", "bloqueada", "bloqueado", "nao consigo logar", "login", "pin"],
+      "solution": [
+        "Confira se o Caps Lock está desligado e se o teclado está no idioma certo.",
+        "Na tela de login do Windows, clique em \"Esqueci minha senha\" ou \"Esqueci meu PIN\".",
+        "Se usa conta Microsoft, redefina a senha em account.live.com/password/reset de outro aparelho.",
+        "Se a conta foi bloqueada por tentativas erradas, espere alguns minutos antes de tentar de novo."
+      ]
+    },
+    {
+      "id": "impressora-001",
+      "category": "Impressora",
+      "title": "Impressora não imprime",
+      "keywords": ["impressora", "imprimir", "impressao"],
+      "solution": [
+        "Confira se a impressora está ligada, com papel e sem luz de erro.",
+        "Verifique se ela está conectada (cabo USB ou mesma rede Wi-Fi do computador).",
+        "Em Configurações > Bluetooth e dispositivos > Impressoras e scanners, abra a impressora e cancele os documentos travados na fila.",
+        "Confirme se a impressora certa está selecionada na hora de imprimir.",
+        "Reinicie a impressora e o computador."
+      ]
+    },
+    {
+      "id": "email-001",
+      "category": "E-mail",
+      "title": "E-mail não envia ou não recebe",
+      "keywords": ["email", "outlook", "gmail", "caixa de entrada"],
+      "solution": [
+        "Abra o e-mail pelo navegador para ver se o problema é só no aplicativo do Windows.",
+        "Confira se a caixa de entrada não está cheia.",
+        "Olhe as pastas de spam e lixo eletrônico.",
+        "No Outlook, remova a conta e adicione de novo."
+      ]
+    },
+    {
+      "id": "lentidao-001",
+      "category": "Desempenho",
+      "title": "Computador lento ou travando",
+      "keywords": ["lento", "lentidao", "travando", "travado", "devagar"],
+      "solution": [
+        "Reinicie o Windows pelo menu Iniciar > Ligar/Desligar > Reiniciar.",
+        "Aperte Ctrl + Shift + Esc para abrir o Gerenciador de Tarefas e veja qual programa usa mais CPU ou memória.",
+        "Na aba Aplicativos de inicialização do Gerenciador de Tarefas, desative o que não precisa abrir com o Windows.",
+        "Em Configurações > Sistema > Armazenamento, confira se o disco não está quase cheio.",
+        "Instale as atualizações pendentes em Configurações > Windows Update."
+      ]
+    },
+    {
+      "id": "audio-001",
+      "category": "Áudio e vídeo",
+      "title": "Sem som, microfone ou câmera não funciona",
+      "keywords": ["som", "audio", "microfone", "camera", "fone"],
+      "solution": [
+        "Em Configurações > Sistema > Som, confira se a saída e a entrada certas estão selecionadas.",
+        "Verifique se não está no mudo (no Windows e no aplicativo da chamada).",
+        "Desconecte e conecte de novo o fone, microfone ou câmera.",
+        "Em Configurações > Privacidade e segurança > Microfone (ou Câmera), confira se o acesso está permitido."
       ]
     }
   ]

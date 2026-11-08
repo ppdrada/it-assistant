@@ -1,7 +1,7 @@
 {
   "name": "it-assistant",
   "version": "1.0.0",
-  "description": "",
+  "description": "Assistente de suporte de TI para Windows. Projeto de estudo da pós em Engenharia de Software com IA Aplicada (UNIPDS).",
   "main": "index.js",
   "type": "module",
   "scripts": {

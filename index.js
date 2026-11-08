@@ -14,4 +14,4 @@ import { normalizeText } from './utils/textNormalizer.js';
 const mlWorker = new MLWorker();
 
 
-console.log(normalizeText('VPN NÃO CONECTA!!!'));
+console.log(normalizeText('MINHA MÁQUINA NÃO LIGA!!!'));
