@@ -13,7 +13,7 @@ Cada módulo do curso vira uma camada nova do assistente.
 
 ## Estrutura do projeto
 
-- `data/` → dados que o sistema conhece: tickets e artigos da base de conhecimento.
+- `data/` → dados que o sistema conhece: artigos da base de conhecimento.
 - `utils/` → funções auxiliares usadas em diferentes partes do projeto.
 - `services/` → executa ações usando os dados do sistema.
 - `mlWorker.js` → parte de Machine Learning.

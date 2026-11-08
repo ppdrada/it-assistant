@@ -1,0 +1,7 @@
+{
+  "examples": [
+    { "text": "meu computador não liga", "category": "Energia" },
+    { "text": "apertei o botão e nada acontece", "category": "Energia" },
+    { "text": "não consigo entrar no windows", "category": "Acesso" }
+  ]
+}
